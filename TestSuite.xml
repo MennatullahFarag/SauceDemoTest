@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Event">
+    <listeners>
+        <listener class-name="utils.TestngListener"/>
+    </listeners>
+    <test name="SauceDemo - GUI">
+        <classes>
+            <class name="SauceDemoE2ETest"/>
+        </classes>
+    </test>
+
+</suite>
