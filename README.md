@@ -13,19 +13,6 @@ This framework is designed for both **GUI** test automation, ensuring robust end
 * Fluent design approach (method chaining)
 * Supporting Utilities package in *src/main/java/utils*, which includes various wrapper methods as core utilities for the project
 
-### How to check execution logs and reports from GitHub Actions:
-* Log in to GitHub as a prerequisite
-* Open the **GitHub Actions** tab
-* Open the latest workflow run from the list
-* To check execution logs:
-    - Click on "Test on Ubuntu" job
-    - Open the **"Run Tests - Chrome Headless"** step to view logs
-* To open the **Allure report**:
-    - Go to the *Artifacts* section
-    - Click on **"Allure Report"**, unzip it, and open `index.html`
-    - If on Windows and data is empty, run `allow-file-access_open-report_chrome_windows.bat`
-* To open the **Extent report**:
-    - Click on **"Extent Report"** in *Artifacts*, unzip it, and open `ExtentReports.html`
 
 ### How to run the project main test cases locally:
 * If running on IntelliJ, add the TestNG listener:
